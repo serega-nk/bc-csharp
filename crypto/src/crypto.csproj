@@ -10,7 +10,7 @@
     <Company>The Legion of the Bouncy Castle Inc.</Company>
     <Authors>Claire Novotny</Authors>
     <Title>Bouncy Castle Portable</Title>
-    <PackageId>Portable.BouncyCastle</PackageId>
+    <PackageId>Portable.BouncyCastle.Gost2012</PackageId>
     <Description>BouncyCastle portable version with support for .NET 4, .NET Standard 2.0</Description>
     <DebugType>embedded</DebugType>
     <PackageLicenseUrl>https://www.bouncycastle.org/csharp/licence.html</PackageLicenseUrl>

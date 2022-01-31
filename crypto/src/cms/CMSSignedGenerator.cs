@@ -425,6 +425,13 @@ namespace Org.BouncyCastle.Cms
 
             digestOids.Add(CryptoProObjectIdentifiers.GostR3411x94WithGostR3410x94, CryptoProObjectIdentifiers.GostR3411);
             digestOids.Add(CryptoProObjectIdentifiers.GostR3411x94WithGostR3410x2001, CryptoProObjectIdentifiers.GostR3411);
+            
+            //
+            // Add Gost2012
+            //
+            digestOids.Add(RosstandartObjectIdentifiers.id_tc26_signwithdigest_gost_3410_12_256, RosstandartObjectIdentifiers.id_tc26_gost_3411_12_256);
+            digestOids.Add(RosstandartObjectIdentifiers.id_tc26_signwithdigest_gost_3410_12_512, RosstandartObjectIdentifiers.id_tc26_gost_3411_12_512);
+            //
 
             digestNameToOids.Add("SHA-1", OiwObjectIdentifiers.IdSha1);
             digestNameToOids.Add("SHA-224", NistObjectIdentifiers.IdSha224);
